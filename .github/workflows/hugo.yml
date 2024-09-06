@@ -21,7 +21,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Hugo
-        uses: yochem/hugo-action@latest
+        uses: yochem/hugo-action@main
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
